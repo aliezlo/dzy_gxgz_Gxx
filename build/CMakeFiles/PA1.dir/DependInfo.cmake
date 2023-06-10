@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xgx/learn/CG/final/src/image.cpp" "/home/xgx/learn/CG/final/build/CMakeFiles/PA1.dir/src/image.cpp.o"
-  "/home/xgx/learn/CG/final/src/main.cpp" "/home/xgx/learn/CG/final/build/CMakeFiles/PA1.dir/src/main.cpp.o"
-  "/home/xgx/learn/CG/final/src/scene.cpp" "/home/xgx/learn/CG/final/build/CMakeFiles/PA1.dir/src/scene.cpp.o"
-  "/home/xgx/learn/CG/final/src/texture.cpp" "/home/xgx/learn/CG/final/build/CMakeFiles/PA1.dir/src/texture.cpp.o"
+  "/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/image.cpp" "/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/build/CMakeFiles/PA1.dir/src/image.cpp.o"
+  "/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/main.cpp" "/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/build/CMakeFiles/PA1.dir/src/main.cpp.o"
+  "/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/scene.cpp" "/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/build/CMakeFiles/PA1.dir/src/scene.cpp.o"
+  "/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/texture.cpp" "/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/build/CMakeFiles/PA1.dir/src/texture.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,7 +19,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/xgx/learn/CG/final/build/deps/vecmath/CMakeFiles/vecmath.dir/DependInfo.cmake"
+  "/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/build/deps/vecmath/CMakeFiles/vecmath.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

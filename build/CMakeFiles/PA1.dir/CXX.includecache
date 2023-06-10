@@ -354,7 +354,7 @@ random
 vecmath.h
 -
 
-/home/xgx/learn/CG/final/src/image.cpp
+/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/image.cpp
 cstdlib
 -
 cstdio
@@ -362,9 +362,9 @@ cstdio
 cstring
 -
 image.hpp
-/home/xgx/learn/CG/final/src/image.hpp
+/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/image.hpp
 
-/home/xgx/learn/CG/final/src/main.cpp
+/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/main.cpp
 cassert
 -
 cmath
@@ -382,13 +382,13 @@ iostream
 string
 -
 render.hpp
-/home/xgx/learn/CG/final/src/render.hpp
+/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/render.hpp
 scene.hpp
-/home/xgx/learn/CG/final/src/scene.hpp
+/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/scene.hpp
 
-/home/xgx/learn/CG/final/src/scene.cpp
+/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/scene.cpp
 scene.hpp
-/home/xgx/learn/CG/final/src/scene.hpp
+/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/scene.hpp
 vecmath.h
 -
 cmath
@@ -400,37 +400,37 @@ cstdlib
 cstring
 -
 camera.hpp
-/home/xgx/learn/CG/final/src/camera.hpp
+/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/camera.hpp
 curve.hpp
-/home/xgx/learn/CG/final/src/curve.hpp
+/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/curve.hpp
 group.hpp
-/home/xgx/learn/CG/final/src/group.hpp
+/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/group.hpp
 light.hpp
-/home/xgx/learn/CG/final/src/light.hpp
+/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/light.hpp
 material.hpp
-/home/xgx/learn/CG/final/src/material.hpp
+/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/material.hpp
 mesh.hpp
-/home/xgx/learn/CG/final/src/mesh.hpp
+/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/mesh.hpp
 object3d.hpp
-/home/xgx/learn/CG/final/src/object3d.hpp
+/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/object3d.hpp
 plane.hpp
-/home/xgx/learn/CG/final/src/plane.hpp
+/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/plane.hpp
 revsurface.hpp
-/home/xgx/learn/CG/final/src/revsurface.hpp
+/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/revsurface.hpp
 sphere.hpp
-/home/xgx/learn/CG/final/src/sphere.hpp
+/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/sphere.hpp
 texture.h
-/home/xgx/learn/CG/final/src/texture.h
+/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/texture.h
 transform.hpp
-/home/xgx/learn/CG/final/src/transform.hpp
+/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/transform.hpp
 triangle.hpp
-/home/xgx/learn/CG/final/src/triangle.hpp
+/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/triangle.hpp
 
-/home/xgx/learn/CG/final/src/texture.cpp
+/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/texture.cpp
 texture.h
-/home/xgx/learn/CG/final/src/texture.h
+/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/texture.h
 iostream
 -
 stb_image.h
-/home/xgx/learn/CG/final/src/stb_image.h
+/mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/src/stb_image.h
 

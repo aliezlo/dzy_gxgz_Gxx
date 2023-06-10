@@ -1,24 +1,24 @@
 #!/usr/bin/env bash
 SAMPLES=10
 METHOD=rc
-# If project not ready, generate cmake file.
+
+# Generate cmake file if not ready.
 if [[ ! -d build ]]; then
     mkdir -p build
     cd build
-    cmake ..
+    cmake -S .. -B .
     cd ..
 fi
 
 # Build project.
 cd build
-make -j
+cmake --build . --parallel
 cd ..
 
-# Run all testcases. 
+# Run all testcases.
 # You can comment some lines to disable the run of specific examples.
-# mkdir -p output
-# time bin/PA1 testcases/scene01_basic.txt output/scene01.bmp $METHOD $SAMPLES
-# time bin/PA1 testcases/scene02_cube.txt output/scene02.bmp $METHOD $SAMPLES
+time bin/PA1 testcases/scene01_basic.txt output/scene01.bmp $METHOD $SAMPLES
+time bin/PA1 testcases/scene02_cube.txt output/scene02.bmp $METHOD $SAMPLES
 # time bin/PA1 testcases/scene03_sphere.txt output/scene03.bmp $METHOD $SAMPLES
 # time bin/PA1 testcases/scene04_axes.txt output/scene04.bmp $METHOD $SAMPLES
 # time bin/PA1 testcases/scene05_bunny_200.txt output/scene05.bmp $METHOD $SAMPLES
@@ -40,5 +40,5 @@ cd ..
 # time bin/PA1 testcases/scene17_bump.txt output/scene17_bump.bmp $METHOD $SAMPLES
 # time bin/PA1 testcases/scene18_dof.txt output/scene18_dof.bmp $METHOD $SAMPLES
 # time bin/PA1 testcases/scene18_dof_0.txt output/scene18_dof_0.bmp $METHOD $SAMPLES
-time bin/PA1 testcases/scene19_sibenik.txt output/scene19_sibenik.bmp $METHOD $SAMPLES
+# time bin/PA1 testcases/scene19_sibenik.txt output/scene19_sibenik.bmp $METHOD $SAMPLES
 # time bin/PA1 testcases/scene21_livingroom.txt output/scene21_livingroom.bmp $METHOD $SAMPLES

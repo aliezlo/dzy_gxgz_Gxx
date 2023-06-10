@@ -1,4 +1,4 @@
-# Install script for directory: /home/xgx/learn/CG/final/deps/vecmath
+# Install script for directory: /mnt/c/Users/zz/Desktop/picture_lab/dzy/dz_guangxx/THU-Computer-Graphics-2020/project/final/deps/vecmath
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

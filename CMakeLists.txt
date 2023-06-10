@@ -1,21 +1,18 @@
-CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
-PROJECT(PA1 CXX)
-SET(CMAKE_BUILD_TYPE "Release")
-SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g2 -ggdb -fopenmp")
-SET(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall -fopenmp")
-IF(NOT CMAKE_BUILD_TYPE)
-    SET(CMAKE_BUILD_TYPE Release)
-ENDIF()
+cmake_minimum_required(VERSION 3.0)
+project(PA1 CXX)
 
-ADD_SUBDIRECTORY(deps/vecmath)
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 
-SET(PA1_SOURCES
+add_subdirectory(deps/vecmath)
+
+set(PA1_SOURCES
         src/image.cpp
         src/main.cpp
         src/scene.cpp
         src/texture.cpp)
 
-SET(PA1_INCLUDES
+set(PA1_INCLUDES
         include/camera.hpp
         include/group.hpp
         include/hit.hpp
@@ -36,9 +33,8 @@ SET(PA1_INCLUDES
         include/render.hpp
         )
 
-SET(CMAKE_CXX_STANDARD 11)
-SET(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
-
-ADD_EXECUTABLE(${PROJECT_NAME} ${PA1_SOURCES} ${PA1_INCLUDES})
-TARGET_LINK_LIBRARIES(${PROJECT_NAME} vecmath)
-TARGET_INCLUDE_DIRECTORIES(${PROJECT_NAME} PRIVATE include)
+add_executable(${PROJECT_NAME} ${PA1_SOURCES} ${PA1_INCLUDES})
+target_link_libraries(${PROJECT_NAME} PRIVATE vecmath)
+target_include_directories(${PROJECT_NAME} PRIVATE include)
+add_compile_options("$<$<CONFIG:DEBUG>:$ENV{CXXFLAGS} -O0 -Wall -g2 -ggdb -fopenmp>")
+add_compile_options("$<$<CONFIG:RELEASE>:$ENV{CXXFLAGS} -O3 -Wall -fopenmp>")
