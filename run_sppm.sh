@@ -7,13 +7,13 @@ METHOD=sppm
 if [[ ! -d build ]]; then
     mkdir -p build
     cd build
-    cmake ..
+    cmake -S .. -B .
     cd ..
 fi
 
 # Build project.
 cd build
-make -j
+cmake --build . --parallel
 cd ..
 
 # Run all testcases. 
